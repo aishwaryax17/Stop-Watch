@@ -1,0 +1,159 @@
+body {
+    background-image: url('n.jpg');
+    background-size:cover; /* Adjust according to your needs */
+    background-repeat: no-repeat;
+  
+    
+  }
+.content1{
+   padding-top:70px;
+   padding-left: 700px;
+}
+.timer{
+  font-size: 100px;
+
+  
+}
+.ali{
+  padding-left: 90px;
+  background-color: transparent;
+  border: transparent;
+}
+
+  input {
+    padding: 8px;
+    margin: 5px;
+  }
+  .content2{
+    padding-top:120px;
+    padding-left: 850px;
+    font-size:30px;
+    display: flex;
+  flex-direction: column;
+ }
+ .parent{
+  display: flex;
+  flex-direction: row;
+ }
+ #datetime {
+  
+  float: left;
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  
+  position: relative;
+  z-index: 1;
+  padding-left: 200px;
+  font-style:bold;
+  
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input {
+  width: 200px; /* Adjust the width as needed */
+  padding: 8px;
+  margin-bottom: 10px;
+}
+.navbar{
+  background-color: black;
+  float: right;
+  padding: 14px 16px;
+  color:#fff;
+ text-align: center;
+}
+.navbar a{
+  display: flex;
+  justify-content: flex-start;
+  
+  padding-right: 50px;
+  color :#fff;
+  padding-left: 300px;
+ font-size: x-large;
+  text-decoration: none;
+
+}
+.ho:hover{
+   text-decoration: underline;
+  
+}
+.tabl {
+  float: left;
+ margin-left:200 px;
+ 
+}
+
+.tabl table {
+  
+  color:black;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tabl th, .tabl td {
+  border: 3px solid orange;
+  padding: 15px;
+  padding-left: 100px;
+
+  text-align: left;
+}
+
+h2{
+  padding-top: 100px;
+  padding-left: 915px;
+  font-size: xx-large;
+  color:black;
+  
+}
+.nav1{
+
+ position: absolute;
+ top:8px;
+ right: 10px;
+ padding-left: 20px;
+ background-color: black;
+
+}
+.ho{
+  float: inline-start;
+  margin-bottom: 18px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.del{
+ 
+  
+ position: relative;
+ top:100px;
+ height: 30px;
+ width: 60px;
+ background-color: orange;
+ 
+}
+
+
+.fs1{
+  position: relative;
+  top: 200px;
+  left: 600px;
+font-size: 100px;
+overflow: hidden;
+}
+.fs2{
+  position: relative;
+  top: 200px;
+  left: 800px;
+  background-color: orange;
+  height: 40px;
+  width: 300px;
+  font-size: xx-large;
+overflow: hidden;
+
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
