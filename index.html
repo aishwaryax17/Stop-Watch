@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="circular-clock.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <title>Stop watch</title>
+</head>
+<body>
+    <div class="parent">
+    <div class="navbar" id="home" >
+        <div class="nav1"> 
+        <a href="#home" class="ho"><b>Home</b></a>
+        <a href="#history" class="ho"><b>History</b></a>
+        </div>
+        <div id="datetime" class="dt"><b><span id="timed"><b></span></div>
+        </div>
+    </div>
+    
+    <script src = "./script.js"> </script>
+    <div class="content2">
+       <span>Task:       </span><input type="text" id="myTextBox" name="myTextBox" width="20px" placeholder="Task" >
+       <br>
+       <span>Description:</span><input type="text" id="myTextBox2" name="myTextBox2" width="20px"  placeholder="Description">
+        </div>
+    <div class="content1">
+    <label id="time" class="timer" style="padding-left: 50px;">00 : 00 : 00</label> 
+    <br>
+    <br>
+    <br>
+    <button id="start" onclick="Start()" class="ali"><img src="start.png" height="50px"></button>
+    <button id="stop" onclick="Stop()" class="ali"><img src="sbutton.png" height="50px"></button>
+    <button id="reset" onclick="Reset()" class="ali"><img src="stop .png" height="50px"></button>
+    </div>
+   
+    <h2>History</h2>
+    <button id="deleteButton" onclick="deleteContents()" class="del">Delete</button>
+
+    
+    <div class="tabl" style="padding-left: 500px;"> <table class="table" id="history">
+        
+        
+    </table></div>
+    
+    
+</body>
+</html>
